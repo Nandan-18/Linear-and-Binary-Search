@@ -1,6 +1,3 @@
-"""
-Write a menu-driven program
-to search element either by using Linear or Binary search"""
 
 
 def linear_search(arr, x):
@@ -90,36 +87,3 @@ while ans == 'y' or ans == 'Y':
 
 ################################################################################
 
-# OUTPUT#
-'''[11, 13, 12, 5, 6]
-
-    --------------------
-    |  SEARCH OPTIONS  |
-    --------------------
-    | 1. Linear Search |
-    | 2. Binary Search |
-    --------------------
-    
-Enter your choice(1/2): 1
-Enter your search element: 5
-The element was found at the position:  4
-Do you want to continue?(y/n): y
-Enter your choice(1/2): 2
-Enter your search element: 12
-Sort the elements:-
-1. Insertion sort
-2. Bubble sort
-Enter your choice(1/2): 1
-[5, 6, 11, 12, 13]
-Element is present at position: 4 of sorted array
-Do you want to continue?(y/n): y
-Enter your choice(1/2): 2
-Enter your search element: 6
-Sort the elements:-
-1. Insertion sort
-2. Bubble sort
-Enter your choice(1/2): 2
-[5, 6, 11, 12, 13]
-Element is present at position: 2 of sorted array
-Do you want to continue?(y/n): n
->>> '''
